@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B4198A1F0801BB001D42B2 /* DankMemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B419891F0801BB001D42B2 /* DankMemeService.swift */; };
+		85B4198E1F0803AF001D42B2 /* DankMeme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4198D1F0803AF001D42B2 /* DankMeme.swift */; };
+		85B419901F08073A001D42B2 /* RedditImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B4198F1F08073A001D42B2 /* RedditImage.swift */; };
+		85EF4BC41F082F9A00C1D43D /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EF4BC31F082F9A00C1D43D /* MemeViewController.swift */; };
+		85EF4BC61F08309F00C1D43D /* UIImage+openUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EF4BC51F08309F00C1D43D /* UIImage+openUrl.swift */; };
 		85F1E6E31F06861A00E3E179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F1E6E21F06861A00E3E179 /* AppDelegate.swift */; };
-		85F1E6E51F06861A00E3E179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F1E6E41F06861A00E3E179 /* ViewController.swift */; };
 		85F1E6E81F06861A00E3E179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F1E6E61F06861A00E3E179 /* Main.storyboard */; };
 		85F1E6EA1F06861A00E3E179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F1E6E91F06861A00E3E179 /* Assets.xcassets */; };
 		85F1E6ED1F06861A00E3E179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F1E6EB1F06861A00E3E179 /* LaunchScreen.storyboard */; };
+		C61EEE249CC3E53E76EB0A9F /* Pods_FunFunFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D01E57D094DB818C6F6F49A /* Pods_FunFunFun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31E6FF7D33C264EBA6609BBA /* Pods-FunFunFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunFunFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunFunFun/Pods-FunFunFun.debug.xcconfig"; sourceTree = "<group>"; };
+		7D01E57D094DB818C6F6F49A /* Pods_FunFunFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunFunFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B419891F0801BB001D42B2 /* DankMemeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DankMemeService.swift; sourceTree = "<group>"; };
+		85B4198D1F0803AF001D42B2 /* DankMeme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DankMeme.swift; sourceTree = "<group>"; };
+		85B4198F1F08073A001D42B2 /* RedditImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditImage.swift; sourceTree = "<group>"; };
+		85EF4BC31F082F9A00C1D43D /* MemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
+		85EF4BC51F08309F00C1D43D /* UIImage+openUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+openUrl.swift"; sourceTree = "<group>"; };
 		85F1E6DF1F06861A00E3E179 /* FunFunFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFunFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F1E6E21F06861A00E3E179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85F1E6E41F06861A00E3E179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85F1E6E71F06861A00E3E179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85F1E6E91F06861A00E3E179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85F1E6EC1F06861A00E3E179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85F1E6EE1F06861A00E3E179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF115CBD569D15465F5C7735 /* Pods-FunFunFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunFunFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunFunFun/Pods-FunFunFun.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61EEE249CC3E53E76EB0A9F /* Pods_FunFunFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		855637B41F0E99F50031659F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				85B4198D1F0803AF001D42B2 /* DankMeme.swift */,
+				85B4198F1F08073A001D42B2 /* RedditImage.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		855637B51F0E9A090031659F /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				85EF4BC31F082F9A00C1D43D /* MemeViewController.swift */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		855637B61F0E9A180031659F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				85EF4BC51F08309F00C1D43D /* UIImage+openUrl.swift */,
+				85B419891F0801BB001D42B2 /* DankMemeService.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		855637B71F0E9A2D0031659F /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				85F1E6E61F06861A00E3E179 /* Main.storyboard */,
+				85F1E6EB1F06861A00E3E179 /* LaunchScreen.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
 		85F1E6D61F06861A00E3E179 = {
 			isa = PBXGroup;
 			children = (
 				85F1E6E11F06861A00E3E179 /* FunFunFun */,
 				85F1E6E01F06861A00E3E179 /* Products */,
+				F6957F5E1F611B2B5A528C99 /* Pods */,
+				E05A87AA49FE30CF78D6BF5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,32 @@
 		85F1E6E11F06861A00E3E179 /* FunFunFun */ = {
 			isa = PBXGroup;
 			children = (
+				855637B71F0E9A2D0031659F /* storyboards */,
+				855637B61F0E9A180031659F /* util */,
+				855637B51F0E9A090031659F /* vc */,
+				855637B41F0E99F50031659F /* models */,
 				85F1E6E21F06861A00E3E179 /* AppDelegate.swift */,
-				85F1E6E41F06861A00E3E179 /* ViewController.swift */,
-				85F1E6E61F06861A00E3E179 /* Main.storyboard */,
 				85F1E6E91F06861A00E3E179 /* Assets.xcassets */,
-				85F1E6EB1F06861A00E3E179 /* LaunchScreen.storyboard */,
 				85F1E6EE1F06861A00E3E179 /* Info.plist */,
 			);
 			path = FunFunFun;
+			sourceTree = "<group>";
+		};
+		E05A87AA49FE30CF78D6BF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D01E57D094DB818C6F6F49A /* Pods_FunFunFun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6957F5E1F611B2B5A528C99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E6FF7D33C264EBA6609BBA /* Pods-FunFunFun.debug.xcconfig */,
+				AF115CBD569D15465F5C7735 /* Pods-FunFunFun.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85F1E6F11F06861A00E3E179 /* Build configuration list for PBXNativeTarget "FunFunFun" */;
 			buildPhases = (
+				406D10162311ED11B3D693B7 /* [CP] Check Pods Manifest.lock */,
 				85F1E6DB1F06861A00E3E179 /* Sources */,
 				85F1E6DC1F06861A00E3E179 /* Frameworks */,
 				85F1E6DD1F06861A00E3E179 /* Resources */,
+				413F4F789653D3BE39BF5B59 /* [CP] Embed Pods Frameworks */,
+				10F4454B82F97062A90088E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +203,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10F4454B82F97062A90088E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunFunFun/Pods-FunFunFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406D10162311ED11B3D693B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		413F4F789653D3BE39BF5B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunFunFun/Pods-FunFunFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85F1E6DB1F06861A00E3E179 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F1E6E51F06861A00E3E179 /* ViewController.swift in Sources */,
+				85EF4BC61F08309F00C1D43D /* UIImage+openUrl.swift in Sources */,
+				85B419901F08073A001D42B2 /* RedditImage.swift in Sources */,
+				85EF4BC41F082F9A00C1D43D /* MemeViewController.swift in Sources */,
 				85F1E6E31F06861A00E3E179 /* AppDelegate.swift in Sources */,
+				85B4198A1F0801BB001D42B2 /* DankMemeService.swift in Sources */,
+				85B4198E1F0803AF001D42B2 /* DankMeme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +382,15 @@
 		};
 		85F1E6F21F06861A00E3E179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E6FF7D33C264EBA6609BBA /* Pods-FunFunFun.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7S85LAS2H;
 				INFOPLIST_FILE = FunFunFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mills.FunFunFun;
+				PRODUCT_BUNDLE_IDENTIFIER = mills.dankmemez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +398,15 @@
 		};
 		85F1E6F31F06861A00E3E179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF115CBD569D15465F5C7735 /* Pods-FunFunFun.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z7S85LAS2H;
 				INFOPLIST_FILE = FunFunFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mills.FunFunFun;
+				PRODUCT_BUNDLE_IDENTIFIER = mills.dankmemez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +431,7 @@
 				85F1E6F31F06861A00E3E179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

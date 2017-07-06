@@ -1,26 +1,109 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KeJ-VK-jAZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Meme View Controller-->
+        <scene sceneID="kfh-oz-Jg1">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KeJ-VK-jAZ" customClass="MemeViewController" customModule="FunFunFun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="FhF-fy-1wL"/>
+                        <viewControllerLayoutGuide type="bottom" id="AiS-ue-iTE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="3LK-jW-q6y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4pu-f7-dUR" userLabel="Titlebar">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepe" translatesAutoresizingMaskIntoConstraints="NO" id="ked-49-h5D">
+                                        <rect key="frame" x="155" y="21" width="66" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="66" id="OAD-5t-e2c"/>
+                                            <constraint firstAttribute="height" constant="54" id="VH9-bd-FeL"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.34509803919999998" green="0.54901960780000003" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ked-49-h5D" firstAttribute="centerX" secondItem="4pu-f7-dUR" secondAttribute="centerX" id="4qq-9k-f32"/>
+                                    <constraint firstItem="ked-49-h5D" firstAttribute="centerY" secondItem="4pu-f7-dUR" secondAttribute="centerY" constant="5" id="XgJ-8l-n9z"/>
+                                    <constraint firstAttribute="height" constant="85" id="z6M-SN-ePc"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.75" maximumZoomScale="6" translatesAutoresizingMaskIntoConstraints="NO" id="AMZ-yW-h6I">
+                                <rect key="frame" x="18" y="115" width="340" height="340"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepe" translatesAutoresizingMaskIntoConstraints="NO" id="P5T-Lo-6dK">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="340"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="340" id="3MA-ne-LNB"/>
+                                            <constraint firstAttribute="height" constant="340" id="nRO-3R-Gjm"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="P5T-Lo-6dK" firstAttribute="centerY" secondItem="AMZ-yW-h6I" secondAttribute="centerY" id="G8X-ck-yzc"/>
+                                    <constraint firstAttribute="bottom" secondItem="P5T-Lo-6dK" secondAttribute="bottom" id="LY7-Y8-yvQ"/>
+                                    <constraint firstItem="P5T-Lo-6dK" firstAttribute="top" secondItem="AMZ-yW-h6I" secondAttribute="top" id="QfW-pP-qJn"/>
+                                    <constraint firstItem="P5T-Lo-6dK" firstAttribute="centerX" secondItem="AMZ-yW-h6I" secondAttribute="centerX" id="fch-Ry-idS"/>
+                                    <constraint firstAttribute="trailing" secondItem="P5T-Lo-6dK" secondAttribute="trailing" id="mx6-Vv-OKJ"/>
+                                    <constraint firstItem="P5T-Lo-6dK" firstAttribute="leading" secondItem="AMZ-yW-h6I" secondAttribute="leading" id="pgb-Nv-SY5"/>
+                                </constraints>
+                            </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pQ8-jS-veD">
+                                <rect key="frame" x="16" y="592" width="343" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdY-Na-8jk">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                        <color key="backgroundColor" red="0.34509803919999998" green="0.54901960780000003" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="SHARE">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onShare:" destination="KeJ-VK-jAZ" eventType="touchUpInside" id="5RQ-Ag-TSu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hxB-dy-cac"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AiS-ue-iTE" firstAttribute="top" secondItem="pQ8-jS-veD" secondAttribute="bottom" constant="25" id="D7X-ZY-5Rf"/>
+                            <constraint firstItem="AMZ-yW-h6I" firstAttribute="top" secondItem="4pu-f7-dUR" secondAttribute="bottom" constant="30" id="PXn-Dt-xmw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pQ8-jS-veD" secondAttribute="trailing" id="RJc-tf-4vS"/>
+                            <constraint firstAttribute="trailing" secondItem="4pu-f7-dUR" secondAttribute="trailing" id="SZB-vM-2Dt"/>
+                            <constraint firstItem="4pu-f7-dUR" firstAttribute="leading" secondItem="3LK-jW-q6y" secondAttribute="leading" id="Vbe-cB-Vev"/>
+                            <constraint firstItem="pQ8-jS-veD" firstAttribute="leading" secondItem="3LK-jW-q6y" secondAttribute="leadingMargin" id="aq1-p1-whU"/>
+                            <constraint firstItem="AMZ-yW-h6I" firstAttribute="centerX" secondItem="4pu-f7-dUR" secondAttribute="centerX" id="iP1-yw-hYR"/>
+                            <constraint firstItem="4pu-f7-dUR" firstAttribute="top" secondItem="3LK-jW-q6y" secondAttribute="top" id="zqs-ef-geg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="P5T-Lo-6dK" id="QHa-Ko-9gK"/>
+                        <outlet property="scrollView" destination="AMZ-yW-h6I" id="Hqv-kU-nkV"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8X-rg-bjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1309.5999999999999" y="203.74812593703149"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pepe" width="128" height="128"/>
+    </resources>
 </document>
